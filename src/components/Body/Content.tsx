@@ -1,5 +1,5 @@
 import { Center, Flex, VStack, Text } from '@chakra-ui/react';
-import React, { forwardRef } from 'react'
+import { forwardRef } from 'react'
 import { ChakraBox } from '../Chakra';
 
 interface IContent {

@@ -1,4 +1,4 @@
-import { Box, Center, Flex, LinkBox } from '@chakra-ui/react';
+import { Box, Center, Flex } from '@chakra-ui/react';
 import React from 'react'
 
 import EmailImg from '@/assets/email.svg';
