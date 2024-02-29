@@ -1,4 +1,4 @@
-import { Box, Center, Flex } from '@chakra-ui/react';
+import { Box, Center, Flex, Image } from '@chakra-ui/react';
 import React from 'react'
 
 import EmailImg from '@/assets/email.svg';
@@ -9,13 +9,10 @@ const Footer: React.FC = () => {
       <Center>
         <Box
           as='a'
-          boxSize={'4rem'}
-          bgImage={EmailImg}
-          bgPos={'center'}
-          bgSize={'contain'}
-          bgRepeat={'no-repeat'}
           href={'mailto:hello@tesiro.xyz'}
-        />
+        >
+          <Image src={EmailImg} w={'4rem'} />
+        </Box>
       </Center>
     </Flex>
   )
