@@ -10,7 +10,7 @@ const App: React.FC = () => {
   return (
     <VStack
       w={'100vw'}
-      h={'100vh'}
+      h={'100dvh'}
       bgImg={BgImg}
       bgRepeat={'no-repeat'}
       bgPos={'center'}
