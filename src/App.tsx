@@ -1,4 +1,4 @@
-import { VStack } from '@chakra-ui/react';
+import { Box, VStack } from '@chakra-ui/react';
 import React from 'react'
 
 import BgImg from '@/assets/studio-bg.webp';
@@ -15,10 +15,13 @@ const App: React.FC = () => {
       bgRepeat={'no-repeat'}
       bgPos={'center'}
       bgSize={'cover'}
-      px={{ base: '2rem', lg: '4rem' }}
     >
-      <Header />
-      <Body />
+      <Box w={'100%'} px={{ base: '2rem', lg: '4rem' }}>
+        <Header />
+      </Box>
+      <Box flex={1} w={'100%'} px={{ base: '2rem', lg: '4rem' }}>
+        <Body />
+      </Box>
       <Footer />
     </VStack>
   )

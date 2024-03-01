@@ -65,12 +65,12 @@ const Body: React.FC = () => {
   }, []);
 
   return (
-    <VStack w={'100%'} flex={1} py={'5rem'} alignItems={'flex-start'}>
+    <VStack w={'100%'} h={'100%'} py={{ base: '1rem', lg: '5rem' }} alignItems={'flex-start'}>
       <Flex fontSize={{ base: '1.5rem', lg: '4.25rem' }} lineHeight={1.5} fontWeight={600} alignItems={'center'} gap={'1.75rem'}>
         <Text>TESIRO STUDIO</Text>
         <Img src={ArrowBtn} w={{ base: '3.25rem', lg: '5.75rem' }} h={'auto'} />
       </Flex>
-      <Flex flex={1} pt={'3rem'} justifyContent={'flex-end'} w={'100%'}>
+      <Flex flex={1} pt={{ base: '1rem', lg: '3rem' }} justifyContent={'flex-end'} w={'100%'}>
         <VStack w={'100%'} maxW={'50rem'} gap={0} h={'100%'} pos={'relative'}>
           <AnimatePresence mode={'wait'}>
             {render()}
