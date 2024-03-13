@@ -17,7 +17,7 @@ const Header: React.FC = () => {
       }}
     >
       <Flex py={{ base: '1rem', lg: '1.5rem' }} borderBottom={'0.0625rem solid'} borderColor={'#ffffff27'}>
-        <Text fontSize={{ base: '1rem', lg: '1.5rem' }} lineHeight={1.5} fontWeight={600}>TesXro STUDIO</Text>
+        <Text fontSize={{ base: '1rem', lg: '1.5rem' }} lineHeight={1.5} fontWeight={600}>TeXro STUDIO</Text>
       </Flex>
     </ChakraBox>
   )

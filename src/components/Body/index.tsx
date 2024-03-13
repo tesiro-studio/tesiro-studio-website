@@ -26,7 +26,7 @@ const Body: React.FC = () => {
           num={1}
           total={3}
           content={[
-            'TesXro Studio is a game development studio specializing in the combination of decentralization, privacy, and Web3 technologies.',
+            'TeXro Studio is a game development studio specializing in the combination of decentralization, privacy, and Web3 technologies.',
             'The studio is dedicated to creating games based on blockchain technology, aiming to provide players with a more secure, privacy-focused, and decentralized gaming experience.',
           ]}
         />
@@ -39,8 +39,8 @@ const Body: React.FC = () => {
           num={2}
           total={3}
           content={[
-            'In the games developed by TesXro Studio, players can ensure the security and transparency of game data through blockchain technology, while enjoying the true ownership of game assets and transaction freedom brought by decentralized platforms',
-            'Additionally, TesXro Studio emphasizes privacy protection, employing advanced encryption techniques and privacy protocols to ensure that players\' personal information and game data are fully protected.',
+            'In the games developed by TeXro Studio, players can ensure the security and transparency of game data through blockchain technology, while enjoying the true ownership of game assets and transaction freedom brought by decentralized platforms',
+            'Additionally, TeXro Studio emphasizes privacy protection, employing advanced encryption techniques and privacy protocols to ensure that players\' personal information and game data are fully protected.',
           ]}
         />
       );
@@ -50,7 +50,7 @@ const Body: React.FC = () => {
         key={'3'}
         num={3}
         total={3}
-        content={['By integrating with Web3 technology, TesXro Studio strives to create innovative and forward-thinking gaming experiences, offering players more diverse and enjoyable gameplay, and actively promoting the development and innovation of the blockchain gaming industry.']}
+        content={['By integrating with Web3 technology, TeXro Studio strives to create innovative and forward-thinking gaming experiences, offering players more diverse and enjoyable gameplay, and actively promoting the development and innovation of the blockchain gaming industry.']}
       />
     )
   }
@@ -67,7 +67,7 @@ const Body: React.FC = () => {
   return (
     <VStack w={'100%'} h={'100%'} py={{ base: '1rem', lg: '5rem' }} alignItems={'flex-start'}>
       <Flex fontSize={{ base: '1.5rem', lg: '4.25rem' }} lineHeight={1.5} fontWeight={600} alignItems={'center'} gap={'1.75rem'}>
-        <Text>TesXro STUDIO</Text>
+        <Text>TeXro STUDIO</Text>
         <Img src={ArrowBtn} w={{ base: '3.25rem', lg: '5.75rem' }} h={'auto'} />
       </Flex>
       <Flex flex={1} pt={{ base: '1rem', lg: '3rem' }} justifyContent={'flex-end'} w={'100%'}>
